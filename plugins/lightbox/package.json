@@ -1,0 +1,16 @@
+{
+  "name": "lightbox",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Открывает картинки-ссылки поверх страницы с затемнением",
+  "exports": { ".": { "import": "./index.js" } },
+  "main": "./index.js",
+  "quartz": {
+    "name": "lightbox",
+    "displayName": "Lightbox",
+    "category": "transformer",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0"
+  }
+}

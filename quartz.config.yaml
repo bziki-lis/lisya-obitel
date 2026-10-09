@@ -77,6 +77,9 @@ plugins:
     options:
       markdownLinkResolution: shortest
     order: 60
+  - source: "./plugins/lightbox"
+    enabled: true
+    order: 75
   - source: "@quartz-community/description"
     enabled: true
     order: 70
