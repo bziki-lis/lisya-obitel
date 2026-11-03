@@ -38,6 +38,8 @@ jobs:
         run: npx quartz plugin install
       - name: Build Quartz
         run: npx quartz build
+      - name: Add standalone pages
+        run: cp -r pages/. public/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
